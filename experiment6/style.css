@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;       /* Changed font family */
+    margin: 60px;                                    /* Increased margin */
+}
+h1{
+    color:black;                                   /* Changed heading color */
+    margin-bottom: 30px;                             /* Increased bottom margin */
+}    
+.product-box{
+    background-color: white;                       /* Changed background color */
+    width: 300px;                                    /* Increased width */
+    margin: 0 auto;                                  /* Centered the box */
+    padding:15px;                                    /* Increased padding */
+    border: 2px solid gray;                        /* Changed border style */
+    border-radius:40px;                              /* Increased border radius */ 
+}
+.product-box img{
+    width: 100%;                                     /* Made image responsive */
+    height: auto;                                    /* Maintained aspect ratio */
+    border-radius: 5px;                              /* Added slight border radius to image */
+}
+.product-box h2{ 
+    color: black;                                  /* Changed product title color */
+    font-size:20px;                                  /* Increased font size */
+    margin-top:10px;                                 /* Added top margin */
+}
+.description{
+    color: gray;                                   /* Changed description text color */
+    font-size: 14px;                                 /* Increased font size */
+    margin-top: 5px;                                 /* Added top margin */
+}
+
+.price{
+    text-align: center;
+    color: red;                                  /* Changed price color */
+    font-size: 18px;                                 /* Increased font size */
+    font-weight: bold;                               /* Made price bold */
+    margin-top: 10px;                                /* Added top margin */
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  font-size: 14px;
+  border-radius: 114px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
