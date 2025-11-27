@@ -1,0 +1,49 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;             /* Use a clean, sans-serif font */
+    margin: 20px;                               /* Add margin around the body */
+}
+
+/* Block example */
+.block-menu a {
+    display: block;                            /* Make links block-level elements */
+    padding: 10px;                             /* Add padding for better click area */
+    background-color: #3498db;               /* Set a blue background color */
+    margin: 5px 0;                             /* Add vertical spacing between blocks */
+    text-decoration: none;                     /* Remove underline from links */
+    color: white;                            /* Set text color to white */
+}
+
+/*Inline example */
+.inline-menu a {
+    display: inline;                           /* Make links inline elements */
+    padding: 5px;                             /* Add padding for better click area */
+    background-color: #2ecc71;               /* Set a green background color */
+    margin: 5px;                             /* Add horizontal spacing between inline elements */
+    text-decoration: none;                     /* Remove underline from links */
+    color: white;                            /* Set text color to white */
+}
+
+/*Inline-block example */
+.inline-block-menu a {
+    display: inline-block;                     /* Make links inline-block elements */
+    padding: 10px 15px;                             /* Add padding for better click area */
+    background-color: #362ecc;               /* Set a red background color */
+    margin: 5px;                             /* Add spacing between inline-block elements */
+    text-decoration: none;                     /* Remove underline from links */
+    color: white;                            /* Set text color to white */
+}
+
+/*Float example */
+.float-menu a {
+    float: left;                              /* Float links to the left */
+    padding: 10px 15px;                             /* Add padding for better click area */
+    background-color: #e67e22;               /* Set a purple background color */
+    margin: 5px;                             /* Add spacing between floated elements */
+    text-decoration: none;                     /* Remove underline from links */
+    color: white;                            /* Set text color to white */
+}
+
+.clear {
+    clear: both;                              /* Clear floats */
+}
